@@ -1,10 +1,12 @@
 import React from 'react'
-import Header from '../Components/Header';
+import Header from '../components/Header';
 
 export default function LoginPage() {
   return (
-  <>
-    <Header pesquisar='Buscar'/>
-    <h1>Bem vindo ao Curso de React</h1>
-  </>)
+    //jsx - TypeScript Extensible Syntax
+    <>
+        <Header pesquisar="Buscar" name="Glaucio Daniel"/>
+        <h1>Bem Vindo ao curso de React</h1>
+    </>
+  )
 }
